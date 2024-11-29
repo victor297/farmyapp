@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "farmyApp",
+    "slug": "farmyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/logo.png",
+    "splash": {
+      "image": "./src/assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2420db2b-fbed-44d7-84a2-32a4753cd4da"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "runtimeVersion": "1.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.victor297.farmyApp"
+    },
+    "web": {
+      "favicon": "./src/assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2420db2b-fbed-44d7-84a2-32a4753cd4da"
+      }
+    },
+    "owner": "victor297",
+    "runtimeVersion": {
+      "policy": "1.0.0"
+    }
+  }
+}
